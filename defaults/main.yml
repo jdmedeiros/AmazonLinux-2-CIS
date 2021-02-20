@@ -18,7 +18,7 @@ amazonlinux2cis_section6: true
 
 # Set to true to run either level1, level2, or set both to true to run level1 and level2 checks.
 amazonlinux2cis_level1: true
-amazonlinux2cis_level2: false
+amazonlinux2cis_level2: true
 
 ############################
 ### Section 1 Parameters ###
@@ -75,7 +75,7 @@ amazonlinux2cis_disable_service_checks: true
 
 # Set this value to true if the machine is joined to AD/LDAP server.
 # Set this value to false if the machine is not joined to AD/LDAP server.
-amazonlinux2cis_ad_ldap_joined_machine: true
+amazonlinux2cis_ad_ldap_joined_machine: false
 
 # Service configuration booleans set true to keep service
 amazonlinux2cis_cups_server: false
